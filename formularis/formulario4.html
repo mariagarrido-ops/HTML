@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h3>Formulari complet</h3>
+    <form action="https://formspree.io/f/meorlrro" method="POST"> 
+        <fieldset> 
+            <legend>DADES PERSONALS</legend>
+        <label for="">
+            Nom:
+            <input id=""required>
+        </label>
+        <br>
+        <br>
+        <label for="">
+            Edat:
+            <input type="number" name="edad" min="18" max="120" id=""required>
+        </label>
+        <br>
+        <br>
+        <label for="">
+            Data de naixement:
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+        </label>
+        <br>
+        <br>
+        <label for="">
+            País:
+            <select name="País" id="país" required>
+            <option value="">--Tria un país--</option>
+            <option value="espanya">Espanya</option>
+            <option value="franca">França</option>
+            <option value="italia">Itàlia</option>
+            <option value="alemanya">Alemanya</option>
+            <option value="portugal">Portugal</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label for="">
+            Género:
+            Masculino
+          <input type="radio" name="genero" id="" value="m">
+           Femenino
+          <input type="radio" name="genero" id="" value="f">
+           Otro
+          <input type="radio" name="genero" id="" value="o">
+        </label>
+        </label>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>DADES D'ACCÉS</legend>
+          <label for="">
+            Correu electrònic:
+            <input type="email" id="email" name="email" placeholder="exemple@correu.com" required>
+        </label>
+        <br>
+        <br>
+        <label for="">
+            Contrsenya:
+            <input type="password" id=""required pattern="(?=.*[0-9])(?=.*[A-Za-z]).{6,}" title="Almenys 6 caràcters, lletres i números">
+        </label>
+         </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>PREFERENCIES</legend>
+        <label for=""> 
+            Nivell de satisfacció:
+            <select id="satisfaccio" name="satisfaccio" required>
+        <option value="">--Tria un valor--</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+        </label>
+        <br>
+        <br>
+        <label for="">
+            Color preferit:
+            <input type="color" id="color" name="color" required>
+        </label>
+        <br>
+        <br>
+        <label for="">
+            URL personal:
+            <input type="url" id="url" name="url" placeholder="https://tusitio.com">
+        </label>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>ARXIUS I COMENTARIS</legend>
+       <label for="">
+        Pujar arxiu (nomes imatges):
+          <input type="file" id="imagen" name="imagen" accept="image/*" required>
+       </label> 
+       <br>
+       <br>
+       <label for="">
+        Comentaris:
+         <textarea id="comentari" name="comentari" rows="4" cols="50" placeholder="Escribe aquí tu comentario..." required></textarea>
+       </label>
+       <br>
+       <br>
+        </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend>ACCIONS</legend>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="RESET">
+    </fieldset>
+</body>
+</html>
