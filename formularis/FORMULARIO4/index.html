@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulari complet</title>
 </head>
 <body>
       <h3>Formulari complet</h3>
@@ -12,13 +12,13 @@
             <legend>DADES PERSONALS</legend>
         <label for="">
             Nom:
-            <input id=""required>
+            <input type= text id="" required name="Nom">
         </label>
         <br>
         <br>
         <label for="">
             Edat:
-            <input type="number" name="edad" min="18" max="120" id=""required>
+            <input type="number" name="edad" min="18" max="120" id="" required>
         </label>
         <br>
         <br>
@@ -30,6 +30,7 @@
         <br>
         <label for="">
             País:
+        </label>
             <select name="País" id="país" required>
             <option value="">--Tria un país--</option>
             <option value="espanya">Espanya</option>
@@ -38,20 +39,20 @@
             <option value="alemanya">Alemanya</option>
             <option value="portugal">Portugal</option>
             </select>
-        </label>
         <br>
         <br>
         <label for="">
-            Género:
-            Masculino
+            Génere:
+            Masculí
           <input type="radio" name="genero" id="" value="m">
-           Femenino
+           Femení
           <input type="radio" name="genero" id="" value="f">
-           Otro
+           Altre
           <input type="radio" name="genero" id="" value="o">
         </label>
-        </label>
+
         </fieldset>
+
         <br>
         <br>
         <fieldset>
@@ -64,7 +65,7 @@
         <br>
         <label for="">
             Contrsenya:
-            <input type="password" name="password" required pattern="(?=.*[0-9])(?=.*[A-Za-z]).{6,}" title="Almenys 6 caràcters, lletres i números">
+            <input type="password" name="password" id="password" required pattern="(?=.*[0-9])(?=.*[A-Za-z]).{6,}" title="Almenys 6 caràcters, lletres i números">
         </label>
          </fieldset>
         <br>
