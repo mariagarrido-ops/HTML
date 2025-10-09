@@ -8,6 +8,7 @@
 <body>
       <h3>Formulari complet</h3>
     <form action="https://formspree.io/f/meorlrro" method="POST" enctype="multipart/form-data"> 
+        
         <fieldset> 
             <legend>DADES PERSONALS</legend>
         <label for="">
@@ -50,14 +51,14 @@
            Altre
           <input type="radio" name="genero" id="" value="o">
         </label>
-
         </fieldset>
 
         <br>
         <br>
+
         <fieldset>
             <legend>DADES D'ACCÉS</legend>
-          <label for="">
+        <label for="">
             Correu electrònic:
             <input type="email" id="email" name="email" placeholder="exemple@correu.com" required>
         </label>
@@ -67,9 +68,11 @@
             Contrsenya:
             <input type="password" name="password" id="password" required pattern="(?=.*[0-9])(?=.*[A-Za-z]).{6,}" title="Almenys 6 caràcters, lletres i números">
         </label>
-         </fieldset>
+        </fieldset>
+
         <br>
         <br>
+
         <fieldset>
             <legend>PREFERENCIES</legend>
         <label for=""> 
@@ -87,7 +90,7 @@
         <option value="8">8</option>
         <option value="9">9</option>
         <option value="10">10</option>
-    </select>
+             </select>
         </label>
         <br>
         <br>
@@ -102,8 +105,10 @@
             <input type="url" id="url" name="url" placeholder="https://tusitio.com">
         </label>
         </fieldset>
+
         <br>
         <br>
+
         <fieldset>
             <legend>ARXIUS I COMENTARIS</legend>
        <label for="">
@@ -119,12 +124,15 @@
        <br>
        <br>
         </fieldset>
+
     <br>
     <br>
+
     <fieldset>
         <legend>ACCIONS</legend>
         <input type="submit" value="ENVIAR">
         <input type="reset" value="RESET">
     </fieldset>
+    
 </body>
 </html>
